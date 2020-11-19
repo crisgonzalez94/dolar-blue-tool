@@ -1,0 +1,7 @@
+{
+  "name": "dollarBlueTool",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
