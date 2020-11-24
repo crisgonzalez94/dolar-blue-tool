@@ -1,0 +1,104 @@
+[
+   {
+      "name": "Dubai Cambio",
+      "adress": "Esteban Adrogue 1180",
+      "city": "Adrogue",
+      "province": "Buenos Aires GBA Sur",
+      "phone_number": "",
+      "web_site": "",
+      "email": ""
+   },
+   {
+      "name": "Dubai Cambio",
+      "adress": "Francisco Seguí 671 Adrogué",
+      "city": "Adrogue",
+      "province": "Buenos Aires GBA Sur",
+      "phone_number": "",
+      "web_site": "",
+      "email": ""
+   },
+   {
+      "name": "Dubai Cambio",
+      "adress": "Formosa 653 - Shopping Las Toscas",
+      "city": "Canning",
+      "province": "Buenos Aires GBA Sur",
+      "phone_number": "",
+      "web_site": "",
+      "email": ""
+   },
+   {
+      "name": "Dubai Cambio",
+      "adress": "Av. Rivadavia 86",
+      "city": "San Vicente",
+      "province": "Buenos Aires GBA Sur",
+      "phone_number": "",
+      "web_site": "",
+      "email": ""
+   },
+   {
+      "name": "Dubai Cambio",
+      "adress": "Luis María Drago 1985",
+      "city": "Burzaco",
+      "province": "Buenos Aires GBA Sur",
+      "phone_number": "",
+      "web_site": "",
+      "email": ""
+   },
+
+   {
+      "name": "Gis Cambio Sa",
+      "adress": "Laprida 123",
+      "city": "Lomas de Zamora",
+      "province": "Buenos Aires GBA Sur",
+      "phone_number": "01142440150",
+      "web_site": "",
+      "email": ""
+   },
+   {
+      "name": "Dolar Ok",
+      "adress": "Av. Meeks 146",
+      "city": "Lomas de Zamora",
+      "province": "Buenos Aires GBA Sur",
+      "phone_number": 0,
+      "web_site": "",
+      "email": ""
+   },
+   {
+      "name": "Dolar Ok",
+      "adress": "Av. Gral. José de San Martín 2945",
+      "city": "Florencio Varela",
+      "province": "",
+      "phone_number": "01159488713",
+      "web_site": "",
+      "email": ""
+   },
+   {
+      "name": "Dolar Ok",
+      "adress": "9 de Julio",
+      "city": "Bernal",
+      "province": "",
+      "phone_number": "01123560438",
+      "web_site": "",
+      "email": ""
+   },
+   {
+      "name": "Fast Cambio",
+      "adress": "Alsina 262",
+      "city": "Quilmes",
+      "province": "",
+      "phone_number": "01120820916",
+      "web_site": "",
+      "email": ""
+   },
+   {
+      "name": "Dolar Ok",
+      "adress": "Alsina 191",
+      "city": "Quilmes",
+      "province": "",
+      "phone_number": "01142242898",
+      "web_site": "",
+      "email": ""
+   }
+
+
+]

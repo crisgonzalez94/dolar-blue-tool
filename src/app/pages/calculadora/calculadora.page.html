@@ -1,0 +1,37 @@
+<ion-header mode="ios">
+  <ion-toolbar>
+    <ion-title>Calculadora</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content mode="ios" class="ion-padding">
+
+  <h1>Convertir divisas segun la cotizacion actual.</h1>
+  <br>
+
+  <ion-item>
+    <ion-segment (ionChange)="convert($event)" value="venta" [(ngModel)]="operation">
+      <ion-segment-button value="venta">
+        <ion-label>Venta</ion-label>
+      </ion-segment-button>
+      <ion-segment-button value="compra">
+        <ion-label>Compra</ion-label>
+      </ion-segment-button>
+    </ion-segment>
+  </ion-item>
+
+  <ion-item>
+    <ion-input name="convertFrom_input" [(ngModel)]="convertFrom_input" (ionChange)="convert($event)" type="number" placeholder="Digite valor aqui." mode="ios"></ion-input>
+
+    <ion-select [(ngModel)]="convertFrom_select" name="convertFrom_select" value="pesos" okText="Confirmar" cancelText="Cancelar" (ionChange)="convert($event)">
+      <ion-select-option value="pesos">Pesos</ion-select-option>
+      <ion-select-option value="blue">Dolar Blue</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <hr>
+
+  <h1 id="convertTo_display" class="text-big">{{convertTo_display}}</h1>
+  <p id="divisa">{{divisa}}</p>
+
+</ion-content>

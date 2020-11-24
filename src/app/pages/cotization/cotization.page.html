@@ -1,0 +1,51 @@
+<ion-header mode="ios">
+  <ion-toolbar>
+    <ion-title>Cotización</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content mode="ios" class="ion-padding">
+
+  <!--box of cotization-->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Dolar Blue</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-row>
+        <ion-col size="6">
+          <h2 class="card-subtitle">Compra</h2>
+          <h6 class="card-value">{{blueBuy}}</h6>
+        </ion-col>
+        <ion-col size="6">
+          <h2 class="card-subtitle">Venta</h2>
+          <h6 class="card-value">{{blueSell}}</h6>
+        </ion-col>
+      </ion-row>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Dolar Solidario</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-row>
+        <ion-col size="6">
+          <h2 class="card-subtitle">Compra</h2>
+          <h6 class="card-value">{{oficialBuy}}</h6>
+        </ion-col>
+        <ion-col size="6">
+          <h2 class="card-subtitle">Venta</h2>
+          <h6 class="card-value">{{oficialSell}}</h6>
+        </ion-col>
+      </ion-row>
+      <p class="card-description">Contando impuesto país y retención.</p>
+    </ion-card-content>
+  </ion-card>
+
+
+
+</ion-content>

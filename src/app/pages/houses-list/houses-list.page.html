@@ -1,0 +1,23 @@
+<ion-header mode="ios">
+  <ion-toolbar>
+    <ion-title>Casas de Cambio</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content mode="ios" class="ion-padding">
+
+  <!--Searchbar-->
+  <ion-searchbar placeholder="Buscar por ciudad o provincia" inputmode="decimal" type="name" 
+                 (ionChange)="onSearchChange($event)" 
+                 showCancelButton="never">
+  </ion-searchbar>
+
+  <h1>Dolar Blue {{blueBuy}} - {{blueSell}}</h1>
+
+  <ion-list *ngFor="let house of houses">
+    <ion-item>
+      <ion-label>{{house.name}} - {{house.city}}</ion-label>
+    </ion-item>
+  </ion-list>
+
+</ion-content>
