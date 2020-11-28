@@ -1,104 +1,373 @@
 [
-   {
-      "name": "Dubai Cambio",
-      "adress": "Esteban Adrogue 1180",
-      "city": "Adrogue",
-      "province": "Buenos Aires GBA Sur",
-      "phone_number": "",
-      "web_site": "",
-      "email": ""
-   },
-   {
-      "name": "Dubai Cambio",
-      "adress": "Francisco Seguí 671 Adrogué",
-      "city": "Adrogue",
-      "province": "Buenos Aires GBA Sur",
-      "phone_number": "",
-      "web_site": "",
-      "email": ""
-   },
-   {
-      "name": "Dubai Cambio",
-      "adress": "Formosa 653 - Shopping Las Toscas",
-      "city": "Canning",
-      "province": "Buenos Aires GBA Sur",
-      "phone_number": "",
-      "web_site": "",
-      "email": ""
-   },
-   {
-      "name": "Dubai Cambio",
-      "adress": "Av. Rivadavia 86",
-      "city": "San Vicente",
-      "province": "Buenos Aires GBA Sur",
-      "phone_number": "",
-      "web_site": "",
-      "email": ""
-   },
-   {
-      "name": "Dubai Cambio",
-      "adress": "Luis María Drago 1985",
-      "city": "Burzaco",
-      "province": "Buenos Aires GBA Sur",
-      "phone_number": "",
-      "web_site": "",
-      "email": ""
-   },
+
+  {
+     "id": 13,
+     "name": "Cambio Platinum",
+     "adress": "Lavalle 1590",
+     "city": "CABA",
+     "ubication": "https://g.page/Cambio-Platinum-Lavalle?share",
+     "province": "Ciudad de Buenos Aires Capital Federal",
+     "phone_number": "+541144485545",
+     "web_site": "",
+     "email": ""
+  },
+  {
+     "id": 14,
+     "name": "Berlin Cambio",
+     "adress": "Av. Santa Fe 3209 (Alto Palermo)",
+     "city": "CABA",
+     "ubication": "https://goo.gl/maps/xbhENWCqHGyztvSb8",
+     "province": "Ciudad de Buenos Aires Capital Federal",
+     "phone_number": "+541148216599",
+     "web_site": "http://www.arscambios.com.ar/",
+     "email": ""
+  },
+  {
+     "id": 15,
+     "name": "Exchange Consulting srl.",
+     "adress": "Peña 3027",
+     "city": "CABA",
+     "ubication": "https://goo.gl/maps/PXNhsAUbyiKmgoTE8",
+     "province": "Ciudad de Buenos Aires Capital Federal",
+     "phone_number": "+541151999632",
+     "web_site": "",
+     "email": ""
+  },
+  {
+     "id": 16,
+     "name": "Cambio Posadas",
+     "adress": "Posadas 1562",
+     "city": "CABA",
+     "ubication": "https://goo.gl/maps/XVHh4YsG6zGthai1A",
+     "province": "Ciudad de Buenos Aires Capital Federal",
+     "phone_number": "+541148057096",
+     "web_site": "http://www.cambioposadas.com.ar/",
+     "email": ""
+  },
+  {
+     "id": 17,
+     "name": "Cambio Posadas",
+     "adress": "Av. Pres. Manuel Quintana 488",
+     "city": "CABA",
+     "ubication": "https://goo.gl/maps/cP44Ro7e2XVzEvgt8",
+     "province": "Ciudad de Buenos Aires Capital Federal",
+     "phone_number": "0800-222-2262",
+     "web_site": "http://www.cambioposadas.com.ar/",
+     "email": ""
+  },
+  {
+     "id": 18,
+     "name": "Cambio City",
+     "adress": "Viamonte 2561",
+     "city": "CABA",
+     "ubication": "https://goo.gl/maps/SKv4Ezn9d2bAUBDR6",
+     "province": "Ciudad de Buenos Aires Capital Federal",
+     "phone_number": "+541153657375",
+     "web_site": "",
+     "email": ""
+  },
+  {
+     "id": 11,
+     "name": "ARS CAMBIO",
+     "adress": "Lavalle 450",
+     "city": "CABA",
+     "ubication": "https://goo.gl/maps/XGHjDKpeKTNJk46g7",
+     "province": "Ciudad de Buenos Aires Capital Federal",
+     "phone_number": "",
+     "web_site": "http://www.arscambios.com.ar/",
+     "email": ""
+  },
+
 
    {
-      "name": "Gis Cambio Sa",
-      "adress": "Laprida 123",
-      "city": "Lomas de Zamora",
-      "province": "Buenos Aires GBA Sur",
-      "phone_number": "01142440150",
-      "web_site": "",
-      "email": ""
-   },
-   {
+      "id": 6,
       "name": "Dolar Ok",
       "adress": "Av. Meeks 146",
       "city": "Lomas de Zamora",
       "province": "Buenos Aires GBA Sur",
-      "phone_number": 0,
-      "web_site": "",
+      "ubication": "https://goo.gl/maps/vtPWaC2YSuwgUeA3A",
+      "phone_number": "",
+      "web_site": "http://www.dolarok.com/",
       "email": ""
    },
    {
+      "id": 7,
       "name": "Dolar Ok",
       "adress": "Av. Gral. José de San Martín 2945",
       "city": "Florencio Varela",
-      "province": "",
-      "phone_number": "01159488713",
-      "web_site": "",
+      "ubication": "https://goo.gl/maps/fnTx47kVcQhEwo116",
+      "province": "Buenos Aires GBA Sur",
+      "phone_number": "+541159488713",
+      "web_site": "http://www.dolarok.com/",
       "email": ""
    },
    {
+      "id": 8,
       "name": "Dolar Ok",
-      "adress": "9 de Julio",
+      "adress": "9 de Julio 10",
       "city": "Bernal",
-      "province": "",
-      "phone_number": "01123560438",
-      "web_site": "",
+      "ubication": "https://goo.gl/maps/ynbPtG7W7ZQhDFG27",
+      "province": "Buenos Aires GBA Sur",
+      "phone_number": "+541123560438",
+      "web_site": "http://www.dolarok.com/",
       "email": ""
    },
    {
+      "id": 9,
       "name": "Fast Cambio",
       "adress": "Alsina 262",
       "city": "Quilmes",
-      "province": "",
-      "phone_number": "01120820916",
+      "ubication": "",
+      "province": "Buenos Aires GBA Sur",
+      "phone_number": "+541120820916",
+      "web_site": "http://www.fastcambio.com.ar/",
+      "email": ""
+   },
+   {
+      "id": 0,
+      "name": "Dubai Cambio",
+      "adress": "Esteban Adrogue 1180",
+      "city": "Adrogue",
+      "province": "Buenos Aires GBA Sur",
+      "ubication": "https://g.page/dubai-cambio?share",
+      "phone_number": "",
+      "web_site": "https://www.facebook.com/pg/Dubai-Cambio-101231347993216/posts/",
+      "email": ""
+   },
+   {
+      "id": 1,
+      "name": "Dubai Cambio",
+      "adress": "Francisco Seguí 671 Adrogué",
+      "city": "Adrogue",
+      "province": "Buenos Aires GBA Sur",
+      "ubication": "https://g.page/dubai-cambio-segui?share",
+      "phone_number": "",
+      "web_site": "https://www.facebook.com/pg/Dubai-Cambio-101231347993216/posts/",
+      "email": ""
+   },
+   {
+      "id": 2,
+      "name": "Dubai Cambio",
+      "adress": "Formosa 653 - Shopping Las Toscas",
+      "city": "Canning",
+      "province": "Buenos Aires GBA Sur",
+      "ubication": "https://g.page/dubai-cambio-toscas?share",
+      "phone_number": "",
+      "web_site": "https://www.facebook.com/pg/Dubai-Cambio-101231347993216/posts/",
+      "email": ""
+   },
+   {
+      "id": 3,
+      "name": "Dubai Cambio",
+      "adress": "Av. Rivadavia 86",
+      "city": "San Vicente",
+      "province": "Buenos Aires GBA Sur",
+      "ubication": "https://g.page/dubai-san-vicente?share",
+      "phone_number": "",
+      "web_site": "https://www.facebook.com/pg/Dubai-Cambio-101231347993216/posts/",
+      "email": ""
+   },
+   {
+      "id": 4,
+      "name": "Dubai Cambio",
+      "adress": "Luis María Drago 1985",
+      "city": "Burzaco",
+      "province": "Buenos Aires GBA Sur",
+      "ubication": "https://goo.gl/maps/SskLVGVUjgrL7gxz8",
+      "phone_number": "",
+      "web_site": "https://www.facebook.com/pg/Dubai-Cambio-101231347993216/posts/",
+      "email": ""
+   },
+   {
+      "id": 10,
+      "name": "Dolar Ok",
+      "adress": "Alsina 191",
+      "city": "Quilmes",
+      "ubication": "https://g.page/FastQuilmes?share",
+      "province": "Buenos Aires GBA Sur",
+      "phone_number": "+541142242898",
+      "web_site": "http://www.dolarok.com/",
+      "email": ""
+   },
+   {
+      "id": 5,
+      "name": "Gis Cambio Sa",
+      "adress": "Laprida 123",
+      "city": "Lomas de Zamora",
+      "province": "Buenos Aires GBA Sur",
+      "ubication": "https://goo.gl/maps/ZgFK2QsDZJgFtP3t6",
+      "phone_number": "+541142440150",
+      "web_site": "https://giscambio.com.ar/",
+      "email": ""
+   },
+
+   {
+      "id": 0,
+      "name": "Todo Cambio",
+      "adress": "Av. Dr. Ignacio Arieta 3204",
+      "city": "San Justo",
+      "ubication": "https://goo.gl/maps/guuZzLDbB2GX2i6H9",
+      "province": "Buenos Aires GBA Oeste",
+      "phone_number": "",
       "web_site": "",
       "email": ""
    },
    {
+      "id": 0,
       "name": "Dolar Ok",
-      "adress": "Alsina 191",
-      "city": "Quilmes",
-      "province": "",
-      "phone_number": "01142242898",
+      "adress": "Av. Justo Jose Urquiza 4673",
+      "city": "Caseros",
+      "ubication": "https://goo.gl/maps/62vgbYeD9DC18eQk7",
+      "province": "Buenos Aires GBA Oeste",
+      "phone_number": "+541147593335",
+      "web_site": "http://www.dolarok.com/",
+      "email": ""
+   },
+   {
+      "id": 0,
+      "name": "Karuna Group",
+      "adress": "Zeballos 51",
+      "city": "Moreno",
+      "ubication": "https://goo.gl/maps/ehUBwBYaBkgjMFGz9",
+      "province": "Buenos Aires GBA Oeste",
+      "phone_number": "+541164437449",
+      "web_site": "",
+      "email": ""
+   },
+
+
+
+   {
+      "id": 19,
+      "name": "Money Exchange",
+      "adress": "Gral. Belgrano 612",
+      "city": "San Salvador",
+      "ubication": "https://goo.gl/maps/rY7u3f2aEHaTq9V69",
+      "province": "Jujuy",
+      "phone_number": "0388 412-0114",
+      "web_site": "https://money-exchange-oficina-de-asesoramiento.negocio.site/?utm_source=gmb&utm_medium=referral",
+      "email": ""
+   },
+   {
+      "id": 20,
+      "name": "Gabal Exchange",
+      "adress": "Balcarce 175",
+      "city": "Salta",
+      "ubication": "https://g.page/gabal-exchange?share",
+      "province": "Salta",
+      "phone_number": "+543872430674",
+      "web_site": "http://gabalexchange.com.ar/",
+      "email": ""
+   },
+   {
+      "id": 21,
+      "name": "MoneyGram",
+      "adress": "Av. Juan B Justo 1149",
+      "city": "San Miguel",
+      "ubication": "https://goo.gl/maps/MDTmvH8toKnkHYjZ9",
+      "province": "Tucuman",
+      "phone_number": "+543814273054",
+      "web_site": "http://global.moneygram.com/ar/es",
+      "email": ""
+   },
+   {
+      "id": 23,
+      "name": "El Dorado",
+      "adress": "Jose Maria Paz 50",
+      "city": "Resistencia",
+      "ubication": "https://goo.gl/maps/izq61A2SodRZAJtm9",
+      "province": "Chaco",
+      "phone_number": "",
+      "web_site": "http://www.eldoradosa.com/",
+      "email": ""
+   },
+   {
+      "id": 24,
+      "name": "El Dorado",
+      "adress": "La Rioja 790",
+      "city": "Corrientes",
+      "ubication": "https://g.page/el-dorado-corrientes?share",
+      "province": "Corrientes",
+      "phone_number": "+543794435236",
+      "web_site": "",
+      "email": ""
+   },
+   {
+      "id": 25,
+      "name": "MaguiExpress",
+      "adress": "Colón 1575",
+      "city": "Posadas",
+      "ubication": "https://g.page/maguiexpress-posadas?share",
+      "province": "Misiones",
+      "phone_number": "+543764441464",
+      "web_site": "http://www.maguiexpress.com.ar/",
+      "email": ""
+   },
+   {
+      "id": 26,
+      "name": "MoneyGram",
+      "adress": "G. Guemes 856",
+      "city": "San Fernando Catamarca",
+      "ubication": "https://goo.gl/maps/9HzLvsgTjuWXycQR8",
+      "province": "Catamarca",
+      "phone_number": "http://global.moneygram.com/ar/es",
+      "web_site": "http://global.moneygram.com/ar/es",
+      "email": ""
+   },
+   {
+      "id": 27,
+      "name": "CobroExpress",
+      "adress": "8 de Diciembre",
+      "city": "La Rioja",
+      "ubication": "https://goo.gl/maps/eWwYSkkDCR5BKMnC9",
+      "province": "La Rioja",
+      "phone_number": "+548007772627",
+      "web_site": "http://www.cobroexpress.com.ar/",
+      "email": ""
+   },
+   {
+      "id": 28,
+      "name": "MoneyGram",
+      "adress": "San Lorenzo 1098",
+      "city": "Rosario",
+      "ubication": "https://goo.gl/maps/vaakt3Lr3yGwgxD66",
+      "province": "Santa Fe",
+      "phone_number": "+543414268778",
+      "web_site": "http://global.moneygram.com/ar/es",
+      "email": ""
+   },
+   {
+      "id": 31,
+      "name": "MoneyGram",
+      "adress": "Av. Marcelo T. Alvear 203",
+      "city": "Cordoba",
+      "ubication": "https://goo.gl/maps/cerdVo4m6RCwMzYx5",
+      "province": "Cordoba",
+      "phone_number": "+543514265251",
+      "web_site": "http://moneygram.com.ar/",
+      "email": ""
+   },
+   {
+      "id": 32,
+      "name": "Cambio Express",
+      "adress": "Gral. Espejo 58",
+      "city": "Mendoza",
+      "ubication": "https://goo.gl/maps/KS4cg7YvXoAuf26y5",
+      "province": "Mendoza",
+      "phone_number": "+542614291441",
+      "web_site": "http://cambio-express.com.ar/",
+      "email": ""
+   },
+   {
+      "id": 33,
+      "name": "Cambio Alto Valle",
+      "adress": "Avenida Argentina 179",
+      "city": "Neuquen",
+      "ubication": "https://goo.gl/maps/HxsGf4ZWYjf9hgwM6",
+      "province": "Neuquen",
+      "phone_number": "+542994270499",
       "web_site": "",
       "email": ""
    }
-
 
 ]

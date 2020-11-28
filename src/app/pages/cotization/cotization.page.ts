@@ -4,6 +4,9 @@ import { ExchangeValueService } from 'src/app/services/exchange-value.service';
 //Interfaces
 import { ExchangeValue } from 'src/app/interfaces/interfaces';
 
+import { HouseModalPage } from '../house-modal/house-modal.page';
+import { ModalController } from '@ionic/angular';
+
 @Component({
   selector: 'app-cotization',
   templateUrl: './cotization.page.html',
@@ -19,7 +22,7 @@ export class CotizationPage implements OnInit {
   oficialBuy: number;
   oficialSell: number;
 
-  constructor( private exchangeValueService : ExchangeValueService ) { }
+  constructor( private exchangeValueService : ExchangeValueService , private modalController: ModalController ) { }
 
   ngOnInit() {
     this.getValues();
@@ -43,6 +46,14 @@ export class CotizationPage implements OnInit {
 
     });
   }
+
+  async showModal() {
+   const modal = await this.modalController.create({
+     component: HouseModalPage,
+     cssClass: 'my-custom-class'
+   });
+   return await modal.present();
+ }
 
 
 }

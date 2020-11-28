@@ -9,6 +9,9 @@ import { Divisa } from 'src/app/interfaces/interfaces';
 import { ExchangeValue } from 'src/app/interfaces/interfaces';
 import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
 
+import { HouseModalPage } from '../house-modal/house-modal.page';
+import { ModalController } from '@ionic/angular';
+
 @Component({
   selector: 'app-calculadora',
   templateUrl: './calculadora.page.html',
@@ -29,7 +32,7 @@ export class CalculadoraPage implements OnInit {
   operation: string = 'venta';
   divisa: string = 'AR$';
 
-  constructor( private exchangeHousesService : ExchangeHousesService , private exchangeValueService : ExchangeValueService ) { }
+  constructor( private exchangeHousesService : ExchangeHousesService , private exchangeValueService : ExchangeValueService  , private modalController: ModalController ) { }
 
   ngOnInit() {
 
@@ -117,5 +120,13 @@ export class CalculadoraPage implements OnInit {
 
     });
   }
+
+  async showModal() {
+   const modal = await this.modalController.create({
+     component: HouseModalPage,
+     cssClass: 'my-custom-class'
+   });
+   return await modal.present();
+ }
 
 }

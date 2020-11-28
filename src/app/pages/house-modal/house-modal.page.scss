@@ -1,0 +1,14 @@
+ion-button{
+  text-transform: capitalize;
+}
+
+.start-rate{
+  animation-name: start-rate;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes start-rate {
+  0% {color: white;}
+  50% {color: #8D6600;}
+}

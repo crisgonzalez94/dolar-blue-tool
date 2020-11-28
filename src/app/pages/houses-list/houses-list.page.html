@@ -1,23 +1,33 @@
 <ion-header mode="ios">
   <ion-toolbar>
     <ion-title>Casas de Cambio</ion-title>
+
+    <ion-button slot="end" defaultHref="" text="Back" fill="clear" (click)="showModal()">
+      <ion-icon name="help-circle-outline"></ion-icon>
+    </ion-button>
+
   </ion-toolbar>
+
+
+
 </ion-header>
 
 <ion-content mode="ios" class="ion-padding">
 
   <!--Searchbar-->
-  <ion-searchbar placeholder="Buscar por ciudad o provincia" inputmode="decimal" type="name" 
+  <ion-searchbar placeholder="Buscar por ciudad o provincia" inputmode="text" type="name" 
                  (ionChange)="onSearchChange($event)" 
                  showCancelButton="never">
   </ion-searchbar>
 
   <h1>Dolar Blue {{blueBuy}} - {{blueSell}}</h1>
 
-  <ion-list *ngFor="let house of houses">
-    <ion-item>
-      <ion-label>{{house.name}} - {{house.city}}</ion-label>
+  <ion-list *ngFor="let house of houses | filtro:search:'city':'province'">
+    <ion-item (click)="presentActionSheet(house.name , house.adress , house.city , house.ubication , house.province , house.phone_number , house.web_site , house.email )">
+      <ion-label> {{house.name}} - {{house.city}}</ion-label>
     </ion-item>
   </ion-list>
+
+      
 
 </ion-content>
